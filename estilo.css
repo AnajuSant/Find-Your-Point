@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:wght@400;500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+.telao{
+    position: absolute;
+    width: 1440px;
+    height: 646px;
+    background: #FBFBFB;
+   
+}
+
+
+.quadro-cadastro{
+    box-sizing: border-box;
+    position: relative;
+    margin-top:75px;
+    width: 993px;
+    height: 471px;
+    left: 233px;
+    right:214px;
+    background: rgba(211, 211, 211, 0.1);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(4px);
+    border-radius: 20px;
+}
+
+h1{
+    margin-top: 31px;
+    display:flex;
+    justify-content: center;
+}
+
+.folha-cima{
+    position: absolute;
+    left: 1003px;
+    top: -100px;
+}
+
+.folha-esquerda{
+    position: absolute;
+    width: 340px;
+    height: 239px;
+    bottom: 0px;
+}
+
+.folha-direita{
+    position: absolute;
+    width: 337px;
+    height: 423px;
+    right: 0;
+    bottom: 0;
+}
+span{
+    color:#598659;
+}
+
+h6{
+    position: absolute;
+    width: 230px;
+    height: 17px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    left: 433px;
+    margin-top:-105px;
+    
+}
+
+
+/* arrumar hiperlink  h6!!!!!*/
+
+/* h6 .a{
+    color:inherit;
+    text-decoration:none;
+} */
+
+
+.formulario-1{
+    position: relative;
+    left:333px;
+    box-sizing: border-box;
+    top: 30px;
+    
+    
+}
+
+.cadastr{
+    position: absolute;
+    width: 231px;
+    height: 57px;
+    color: white;
+    position: absolute;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF; 
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #000000;
+
+    left:840px;
+    margin-top:-125px;
+}
+
+.cadastr{
+    cursor:pointer;
+
+}
+
+.nome-imp{
+    margin-top:-400px;
+    position: absolute;
+    width: 348px;
+    height: 45px;
+    border: 1px solid #000000;
+    
+    
+}
+
+.senha-imp{
+    position: absolute;
+    width: 348px;
+    height: 45px;
+    border: 1px solid #000000;
+    margin-top:-320px;
+}
+
+.confirm-imp{
+    position: absolute;
+    width: 348px;
+    height: 45px;
+    border: 1px solid #000000;
+    margin-top:-240px;
+}
+
+.formulario-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.email-imp{
+    position: absolute;
+    width: 348px;
+    height: 45px;
+    border: 1px solid #000000;
+    left:840px;
+    margin-top:-330px;
+}
+
+.cnpj-imp{
+    position: absolute;
+    width: 348px;
+    height: 45px;
+    border: 1px solid #000000;
+    left:840px;
+    margin-top:-250px;
+}
