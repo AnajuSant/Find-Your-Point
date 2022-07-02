@@ -75,6 +75,7 @@ button {
 }
 
 .Pag1-header {
+    color: white;
     display: flex;
     justify-content: space-evenly;
     height: 50px;
@@ -124,6 +125,12 @@ button {
     position: absolute;
     margin-left: 15%;
     margin-top: 19%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.bloco1:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 .bloco2{
     display: flex;
@@ -138,6 +145,12 @@ button {
     position: absolute;
     margin-left: 40%;
     margin-top: 19%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.bloco2:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 .bloco3{
     display: flex;
@@ -152,6 +165,12 @@ button {
     position: absolute;
     margin-left: 65%;
     margin-top: 19%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.bloco3:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 .heart{
     background-color: #F7F7F7;
@@ -176,7 +195,11 @@ button {
     border-radius: 6px;
     margin-left: 30%;
     margin-top: 3%;
-    
+    transition: 0.10s;
+}
+.buttom-more:hover{
+    color: white;
+    background-color: #999898;
 }
 .back-pic1{
     /* position: absolute; */
