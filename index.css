@@ -1,3 +1,58 @@
+.pai {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.imagem1 {
+    position: relative;
+    top: 73px;
+    left: 90px;
+    border: 1px solid #ffffff;
+}
+
+.imagem2 {
+    position: relative;
+    top: 100px;
+    left: 68px;
+    border: 1px solid #ffffff;
+}
+
+.imagem3 {
+    position: relative;
+    top: 130px;
+    left: 44px;
+    border: 1px solid #ffffff;
+}
+
+.imagem4 {
+    position: relative;
+    top: 155px;
+    left: 20px;
+    border: 1px solid #ffffff;
+}
+
+.imagem5 {
+    position: relative;
+    top: 73px;
+    left: 300px;
+    border: 1px solid #ffffff;
+}
+
+.imagem6 {
+    position: relative;
+    top: 73px;
+    left: 600px;
+    border: 1px solid #ffffff;
+}
+
+.imagem7 {
+    position: relative;
+    top: 73px;
+    left: 880px;
+    border: 1px solid #ffffff;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat:wght@300&family=Poppins:ital,wght@1,200&display=swap');
 * {
     margin: 0;
@@ -63,50 +118,8 @@ footer {
     margin-top: 30px;
 }
 
-.pai {
+.msg {
     position: relative;
-    top: 0;
-    left: 0;
-}
-
-.imagem1 {
-    position: relative;
-    top: 80px;
-    left: 10px;
-    border: 1px solid #ffffff;
-}
-
-.imagem2 {
-    position: relative;
-    top: 113px;
-    left: 15px;
-    border: 1px solid #ffffff;
-}
-
-.imagem3 {
-    position: relative;
-    top: 140px;
-    left: 18px;
-    border: 1px solid #ffffff;
-}
-
-.imagem4 {
-    position: relative;
-    top: 166px;
-    left: 20px;
-    border: 1px solid #ffffff;
-}
-
-.imagem5 {
-    position: relative;
-    top: 80px;
-    left: 22px;
-    border: 1px solid #ffffff;
-}
-
-.imagem6 {
-    position: relative;
-    top: 80px;
-    left: 33px;
-    border: 1px solid #ffffff;
+    top: -120px;
+    left: 959px;
 }
