@@ -1,0 +1,344 @@
+body {
+    background-color: white;
+    font-family: "Poppins";
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.Pag1-pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.pesquisar-m {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+input {
+    height: 23px;
+    width: 40%;
+    /* caret-color: #555; */
+}
+
+.Pag1-logo {
+    height: 100px;
+}
+
+.iconPesquisar {
+    margin-left: -24px;
+    margin-top: 3px;
+}
+
+.Pag1-Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.Pag1-imglogo {
+    display: flex;
+    flex-grow: 1;
+    max-width: -10px;
+}
+
+.Pag1-Botoes {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.ordenaPai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+button {
+    width: 20%;
+    height: 30px;
+}
+
+.b-login {
+    border: 1px solid black;
+    background: white;
+}
+
+.b-cadastro {
+    border: 1px solid #6c6c6c;
+}
+
+.Pag1-header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.31);
+    border: 1px solid rgba(53, 53, 53, 0.9);
+    backdrop-filter: blur(4px);
+}
+
+.Pag1-opcoes {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.Pai-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.detalhes {
+    display: flex;
+    flex-direction: column;
+    margin-top: -85px;
+    align-items: center;
+
+    /* gap: 15px; */
+}
+
+.detalhes h2 {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: px; */
+    align-items: center;
+
+    /* gap: 15px; */
+}
+
+.Pag1-TelaInicial {
+    height: 100vh;
+    width: 100%;
+}
+
+.cards:hover {
+    height: 430px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards:hover .detalhes {
+    margin-top: 20px;
+}
+
+.cards:hover .balaoimg {
+    transition: 0.5s;
+    margin-top: 0px;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: flex-start; */
+    width: 415px;
+    /* height: 338px; */
+
+    height: 250px;
+    /* height: 500px; */
+    overflow: hidden;
+    transition: 0.5s;
+    background: #f5f5f5;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+.cards:hover .balaoimg {
+    left: 50%;
+    top: -50px;
+    width: 200px;
+    height: 200px;
+}
+
+.balaoimg {
+    width: 160px;
+    object-fit: cover;
+    height: 160px;
+    border: 1px;
+    border-radius: 125px;
+    font-weight: 600;
+    color: #555;
+    margin-top: 110px;
+}
+
+.cards .conteudo {
+    position: relative;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cards .conteudo:hover {
+    /* position: relative;
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -20px; */
+}
+
+.cards .conteudo .textocards {
+    display: flex;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cards .conteudo .textocards h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 15px;
+
+}
+
+.cards .conteudo .textocards h2 span {
+    font-family: "Poppins";
+    font-size: 15px;
+}
+
+.cards-botton {
+    display: flex;
+    justify-content: center;
+    /* margin-top: 100px; */
+
+}
+
+.explorebtn {
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid rgba(103, 150, 103, 0.52);
+    transition: all 0.3s ease;
+    background-color: rgba(103, 150, 103, 0.52);
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.explorebtn:hover {
+    background-color: #ffff;
+    color: black;
+}
+
+.icones-class {
+    background: rgba(103, 150, 103, 0.52);
+    width: 45px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-icons {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+
+/*TELA 02*/
+
+.Pag2-Explorar {
+
+    background: rgba(217, 217, 217, 0.29);
+    border: 2px solid #000000;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100vh;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.95;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo-explorar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-left: 45%;
+    font-family: "Poppins";
+    font-size: 31px;
+}
+
+.img-explorar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 13%;
+    position: absolute;
+
+}
+.img-explorar img{
+    height: 430px;
+    width: 1000px;
+}
+.heart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    margin-top: -8%;
+    margin-left: -90%;
+    /* transition: all 1s; */
+    z-index: 7;
+}
+.heart img{
+    height: 50px;
+    width: 50px;
+    
+}
+.span{
+    color: #f5f5f5;
+    font-size: 22px;
+    position: absolute;
+    text-align: center;
+    margin-top: -4%;
+    margin-left: 10%;
+}
+/* .heart:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+   
+} */
+
+.marco_pic{
+    margin-top: 5%;
+}
+.pomare_pic{
+    margin-top: 5%;
+}
+.sky_pic{
+    margin-top: 5%;
+}
+.explorar {
+    display: flex;
+    gap: 100px;
+    /* flex-direction: column; */
+} 
