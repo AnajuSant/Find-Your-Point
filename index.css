@@ -6,30 +6,88 @@ body {
     margin: 0;
 }
 
+a {
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
 .Pag1-pai {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
+
+
 .pesquisar-m {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    justify-content: center;
+    background-color: rgba(116, 211, 116, 0.281);
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    flex-grow: 2;
+}
+
+.pesquisar-m:hover>.pesquisar-texto {
+    width: 290px;
+}
+
+.pesquisar-m:hover>.pesquisar-btn {
+    background: white;
+}
+
+
+
+.pesquisar-btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+
+
+}
+
+.pesquisar-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 13px;
+    width: 0px;
+    transition: 0.4s;
 }
 
 input {
     height: 23px;
-    width: 40%;
+    width: 290px;
+    border-radius: 10px;
 }
 
 .Pag1-logo {
+
     height: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+
+.Pag1-logo:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 .iconPesquisar {
-    margin-left: -24px;
+    margin-left: 0px;
     margin-top: 3px;
+    color: #000000;
 }
 
 .Pag1-Titulo {
@@ -64,14 +122,44 @@ button {
     height: 30px;
 }
 
+
+
 .b-login {
+    border-radius: 25px;
     border: 1px solid black;
     background: white;
+    width: 100px;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+
+}
+
+.b-login:hover {
+    background-color: rgba(116, 211, 116, 0.795);
+    color: white;
+    border: 1px solid rgba(9, 131, 9, 0.52);
+    transition: all 0.5s ease;
+
 }
 
 .b-cadastro {
     border: 1px solid #6c6c6c;
+    width: 100px;
+    border-radius: 25px;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
 }
+
+.b-cadastro:hover {
+    background-color: rgba(10, 80, 8, 0.685);
+    color: white;
+    border: 1px solid rgba(160, 203, 158);
+    transition: all 0.5s ease;
+
+}
+
 
 .Pag1-header {
     display: flex;
@@ -82,6 +170,7 @@ button {
     background: rgba(0, 0, 0, 0.31);
     border: 1px solid rgba(53, 53, 53, 0.9);
     backdrop-filter: blur(4px);
+    color: white;
 }
 
 .Pag1-opcoes {
@@ -90,10 +179,16 @@ button {
     gap: 90px;
 }
 
+.aovivo {
+    height: 35px;
+
+}
+
+
+
 .Pai-cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-top: 50px;
     flex-direction: row;
 
 }
@@ -255,7 +350,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 50px; */
+    gap: 5px;
 }
 
 
@@ -302,6 +397,13 @@ button {
 
 .MarcoTrêsFronteiras {
     height: 380px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.MarcoTrêsFronteiras:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
 
 .explorar {
