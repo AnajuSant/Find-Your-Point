@@ -121,6 +121,8 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 28px;
+    font-weight: 600;
     flex-grow: 2;
 }
 
