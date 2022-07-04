@@ -12,7 +12,6 @@ body {
 }
 
 a {
-
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -23,10 +22,8 @@ section {
     justify-content: center;
 }
 
-
-
 h1 {
-    margin-top: 191px;
+    margin-top: 3%;
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 500;
@@ -56,6 +53,142 @@ hr {
 
 .pai {
     width: 76.94%;
+}
+
+.Pag1-pai {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Pag1-imglogo {
+    display: flex;
+    flex-grow: 1;
+    max-width: -10px;
+}
+
+.Pag1-logo {
+    height: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Pag1-logo:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+.pesquisar-m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(116, 211, 116, 0.281);
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    flex-grow: 2;
+}
+
+.pesquisar-m:hover>.pesquisar-texto {
+    width: 290px;
+}
+
+.pesquisar-m:hover>.pesquisar-btn {
+    background: white;
+}
+
+.pesquisar-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 13px;
+    width: 0px;
+    transition: 0.4s;
+}
+
+.pesquisar-btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.Pag1-Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 2;
+}
+
+.Pag1-Botoes {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.Pag1-header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.31);
+    border: 1px solid rgba(53, 53, 53, 0.9);
+    backdrop-filter: blur(4px);
+    color: white;
+}
+
+.Pag1-opcoes {
+    display: flex;
+    flex-direction: row;
+    gap: 90px;
+}
+
+.iconPesquisar {
+    margin-left: 0px;
+    margin-top: 3px;
+    color: #000000;
+}
+
+.b-login {
+    border-radius: 25px;
+    border: 1px solid black;
+    background: white;
+    width: 100px;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+}
+
+.b-login:hover {
+    background-color: rgba(116, 211, 116, 0.795);
+    color: white;
+    border: 1px solid rgba(9, 131, 9, 0.52);
+    transition: all 0.5s ease;
+}
+
+.b-cadastro {
+    border: 1px solid #6c6c6c;
+    width: 100px;
+    border-radius: 25px;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+}
+
+.b-cadastro:hover {
+    background-color: rgba(10, 80, 8, 0.685);
+    color: white;
+    border: 1px solid rgba(160, 203, 158);
+    transition: all 0.5s ease;
 }
 
 .primeiro-hr {
