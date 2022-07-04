@@ -1,5 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300;400&family=Raleway+Dots&family=Raleway:wght@100;200;300;400&display=swap');
-*{
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins";
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    /* position: relative; */
+}
+
+.background-img {
+    z-index: -99;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.img1-background {
+    position: absolute;
+    left: 50%;
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,14 +38,56 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: -35%;
+}
+
+
+
+
+.pesquisar-texto {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    color: black;
+    font-size: 13px;
+    width: 0px;
+    transition: 0.4s;
 }
 
 .pesquisar-m {
     display: flex;
     align-items: center;
-    flex-grow: 1;
+    justify-content: center;
+    background-color: rgba(116, 211, 116, 0.281);
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 10px;
+    flex-grow: 2;
 }
+
+.pesquisar-m:hover>.pesquisar-texto {
+    width: 290px;
+}
+
+.pesquisar-m:hover>.pesquisar-btn {
+    background: white;
+}
+
+
+
+.pesquisar-btn {
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+
+
+}
+
 
 input {
     height: 23px;
@@ -25,12 +96,23 @@ input {
 }
 
 .Pag1-logo {
+
     height: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+
 }
 
+.Pag1-logo:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+}
+
+
 .iconPesquisar {
-    margin-left: -24px;
+    margin-left: 0px;
     margin-top: 3px;
+    color: #000000;
 }
 
 .Pag1-Titulo {
@@ -66,12 +148,39 @@ button {
 }
 
 .b-login {
+    border-radius: 25px;
     border: 1px solid black;
     background: white;
+    width: 100px;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+
+}
+
+.b-login:hover {
+    background-color: rgba(116, 211, 116, 0.795);
+    color: white;
+    border: 1px solid rgba(9, 131, 9, 0.52);
+    transition: all 0.5s ease;
+
 }
 
 .b-cadastro {
     border: 1px solid #6c6c6c;
+    width: 100px;
+    border-radius: 25px;
+    height: 35px;
+    transition: all 0.3s ease;
+    font-family: 'Poppins';
+}
+
+.b-cadastro:hover {
+    background-color: rgba(10, 80, 8, 0.685);
+    color: white;
+    border: 1px solid rgba(160, 203, 158);
+    transition: all 0.5s ease;
+
 }
 
 .Pag1-header {
@@ -84,6 +193,8 @@ button {
     background: rgba(0, 0, 0, 0.31);
     border: 1px solid rgba(53, 53, 53, 0.9);
     backdrop-filter: blur(4px);
+    position: absolute;
+    margin-top: 8%;
 }
 
 .Pag1-opcoes {
@@ -91,9 +202,10 @@ button {
     flex-direction: row;
     gap: 90px;
 }
- /* pagina */
 
-.my-fav{
+/* pagina */
+
+.my-fav {
     font-family: 'inter';
     background-color: #FBFBFB;
     height: 100vh;
@@ -103,16 +215,18 @@ button {
     display: flex;
     flex-direction: column;
 }
-.my-fav h2{
+
+.my-fav h2 {
     display: flex;
     text-align: center;
     justify-content: center;
     font-size: 28px;
-    margin-top:2%;
+    margin-top: 6%;
     margin-left: -72%;
- 
+
 }
-.bloco1{
+
+.bloco1 {
     display: flex;
     font-size: 10px;
     justify-content: center;
@@ -128,11 +242,13 @@ button {
     transition: all 0.5s;
     cursor: pointer;
 }
-.bloco1:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+.bloco1:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
-.bloco2{
+
+.bloco2 {
     display: flex;
     font-size: 10px;
     justify-content: center;
@@ -148,11 +264,13 @@ button {
     transition: all 0.5s;
     cursor: pointer;
 }
-.bloco2:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+.bloco2:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
-.bloco3{
+
+.bloco3 {
     display: flex;
     font-size: 10px;
     justify-content: center;
@@ -168,11 +286,13 @@ button {
     transition: all 0.5s;
     cursor: pointer;
 }
-.bloco3:hover{
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+.bloco3:hover {
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
 }
-.heart{
+
+.heart {
     background-color: #F7F7F7;
     display: flex;
     align-items: center;
@@ -184,7 +304,8 @@ button {
     margin-top: -9%;
     margin-left: 5%;
 }
-.buttom-more{
+
+.buttom-more {
     font-size: 12px;
     display: flex;
     align-items: center;
@@ -197,22 +318,27 @@ button {
     margin-top: 3%;
     transition: 0.10s;
 }
-.buttom-more:hover{
+
+.buttom-more:hover {
     color: white;
     background-color: #999898;
 }
-.back-pic1{
-    /* position: absolute; */
-    margin-top: 10%;
+
+.back-pic1 {
+    margin-left: 56%;
+    margin-top:-15%;
 }
-.back-pic2{
-    margin-left: 83%;
-    margin-top: -17%;
+
+.back-pic2 {
+    margin-left:-1%;
+    margin-top: -38%;
 }
-.back-pic3{
-    margin-top: -50%;
-    margin-left: 64%; 
+
+.back-pic3 {
+    margin-top: -8%;
+    margin-left: 84%;
 }
-.img{
+
+.img {
     margin-top: -6%;
 }
