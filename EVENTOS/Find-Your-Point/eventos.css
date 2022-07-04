@@ -5,7 +5,6 @@
 }
 
 body {
-    width: 100vw;
     height: 100%;
     width: 100%;
     font-family: 'Poppins';
@@ -14,12 +13,6 @@ body {
 a {
     color: #FFFFFF;
     text-decoration: none;
-}
-
-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 h1 {
@@ -48,7 +41,12 @@ hr {
     position: static;
     width: 100%;
     border: 1px solid #eaeaea;
-    z-index: -2;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pai {
@@ -138,7 +136,6 @@ hr {
     display: flex;
     justify-content: space-evenly;
     height: 50px;
-    width: 100%;
     align-items: center;
     background: rgba(0, 0, 0, 0.31);
     border: 1px solid rgba(53, 53, 53, 0.9);
@@ -199,18 +196,52 @@ hr {
     margin-top: 63.76px;
 }
 
+.slide-show1 {
+    position: relative;
+    right: 6%;
+    margin-top: 3%;
+    width: 1270px;
+    height: 304px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.29);
+    border: 2px solid #000000;
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+}
+
+.slide-show2 {
+    position: relative;
+    right: 6%;
+    margin-top: 3%;
+    width: 1270px;
+    height: 304px;
+    box-sizing: border-box;
+    background: rgba(217, 217, 217, 0.29);
+    border: 2px solid #000000;
+    backdrop-filter: blur(4px);
+    border-radius: 25px;
+}
+
 .novidades {
     display: flex;
-    justify-content: space-between;
-    margin-top: 63px;
+    justify-content: space-evenly;
+    margin-top: 2.5%;
     width: 100%;
 }
 
 .populares {
     display: flex;
-    justify-content: space-between;
-    margin-top: 63px;
+    justify-content: space-evenly;
+    margin-top: 2.5%;
     width: 100%;
+}
+
+.img-controle {
+    width: 314px;
+    height: 234px;
+    background-size: cover;
+    border-radius: 25px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .inferior-direita {
