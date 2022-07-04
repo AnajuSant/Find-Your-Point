@@ -7,46 +7,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="style.css">
     <title>Cadastro</title>
 </head>
 
 <body>
     <section class="container">
-        <form class="formulario">
-            <h1 class="titulo-formulario">CADASTRO</h1>
+        <form class="formulario" id="formulario">
+            <h1 class="titulo-formulario" id="tituloForm">CADASTRO</h1>
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
 
             <div class="esquerda">
-                <label class="username" for="username">Nome</label>
-                <input class="username" type="text" placeholder="inisira seu nome...">
+                <label class="username" id="labelNome" for="username">Nome de usuário</label>
+                <input class="username" id="nome" type="text" placeholder="inisira seu nome..." required>
             </div>
 
             <div class="direita">
-                <label class="email" for="email">Email</label>
-                <input class="email" type="email" placeholder="inisira seu email...">
+                <label class="email" id="labelEmail" for="email">Email</label>
+                <input class="email" id="email" type="email" placeholder="inisira seu email..." required>
             </div>
 
             <div class="esquerda">
-                <label class="password" for="password">Senha</label>
-                <input class="password" type="password" placeholder="inisira sua senha...">
+                <label class="password" id="labelSenha" for="password">Senha<i id="verSenha" class="fa fa-eye"
+                        aria-hidden="true"></i></label>
+                <input class="password" id="senha" type="password" placeholder="inisira sua senha..." required>
             </div>
 
             <div class="direita">
-                <label class="cpf" for="cpf">CPF</label>
-                <input class="cpf" type="cpf" placeholder="inisira seu cpf...">
+                <label class="cpf" id="labelCpf" for="cpf">CPF</label>
+                <input class="cpf" id="cpf" type="" placeholder="inisira seu cpf..." required maxlength="14">
             </div>
 
             <div class="esquerda">
-                <label class="password-confirmation for=" password-confirmation">Confirmação de senha</label>
-                <input class="password-confirmation" type="password" placeholder="inisira sua senha novamente...">
+                <label class="password-confirmation" id="labelConfirmSenha" for="password-confirmation">Confirmação
+                    de senha<i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i></label>
+                <input class="password-confirmation" id="confirmSenha" type="password"
+                    placeholder="inisira sua senha novamente..." required>
             </div>
 
-            <input class="button" type="submit" value="Cadastrar">
+            <input class="button" type="submit" value="Cadastrar" onclick='cadastrar()'>
 
             <h6 class="login">Já posuí cadastro? Faça seu <a href="#"><span>Login</span></a></h6>
         </form>
     </section>
 </body>
+<script src="./script.js"></script>
 
 </html>

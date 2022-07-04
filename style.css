@@ -164,6 +164,7 @@ label {
     border-radius: 10px;
     background: rgba(0, 0, 0, 0.75);
     border: 1px solid #000000;
+    cursor: pointer;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
@@ -178,103 +179,43 @@ label {
     margin-right: 34.5%;
 }
 
-/* .folha-cima {
-    position: fixed;
-    bottom: 44%;
-    left: 62%;
+.fa-eye {
+    position: absolute;
+    top: 150%;
+    left: 90%;
+    cursor: pointer;
+    color: #000000;
+    z-index: 1;
 }
 
-.folha-esquerda {
+#msgError {
     position: absolute;
-    top: 68.20%;
-}
-
-.folha-direita {
-    position: absolute;
-    width: 337px;
-    height: 423px;
-    right: 0;
-    bottom: 0;
-} */
-
-/* .formulario-1 {
-    position: relative;
-    left: 333px;
-    box-sizing: border-box;
-    top: 30px;
-}
-
-.cadastr {
-    position: absolute;
-    width: 231px;
-    height: 57px;
-    color: white;
-    position: absolute;
-
-    font-family: 'Raleway';
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    bottom: 75%;
+    color: #ff0000;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 26px;
-
-    color: #FFFFFF;
-    background: rgba(0, 0, 0, 0.75);
-    border: 1px solid #000000;
-
-    left: 840px;
-    margin-top: -125px;
+    font-size: 30px;
+    line-height: 45px;
 }
 
-.cadastr {
-    cursor: pointer;
-
-}
-
-.nome-imp {
-    margin-top: -400px;
+#msgSuccess {
     position: absolute;
-    width: 348px;
-    height: 45px;
-    border: 1px solid #000000;
-
-
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    bottom: 75%;
+    color: green;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
 }
-
-.senha-imp {
-    position: absolute;
-    width: 348px;
-    height: 45px;
-    border: 1px solid #000000;
-    margin-top: -320px;
-}
-
-.confirm-imp {
-    position: absolute;
-    width: 348px;
-    height: 45px;
-    border: 1px solid #000000;
-    margin-top: -240px;
-}
-
-.formulario-2 {
-    display: flex;
-    flex-direction: column;
-}
-
-.email-imp {
-    position: absolute;
-    width: 348px;
-    height: 45px;
-    border: 1px solid #000000;
-    left: 840px;
-    margin-top: -330px;
-}
-
-.cnpj-imp {
-    position: absolute;
-    width: 348px;
-    height: 45px;
-    border: 1px solid #000000;
-    left: 840px;
-    margin-top: -250px;
-} */
