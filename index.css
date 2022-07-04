@@ -321,6 +321,11 @@ button {
     text-align: center;
     margin-top: -4%;
     margin-left: 10%;
+    text-shadow: 
+               -1px -1px 0px #000, 
+               -1px 1px 0px #000,                    
+                1px -1px 0px #000,                  
+                1px 0px 0px #000;
 }
 /* .heart:hover{
     -webkit-transform: rotateZ(360deg);
