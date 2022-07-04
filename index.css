@@ -135,6 +135,8 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 28px;
+    font-weight: 600;
     flex-grow: 2;
 }
 
@@ -421,7 +423,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: 5%;
-    margin-left: 13%;
+    margin-left: 16%;
     position: absolute;
 }
 
@@ -453,6 +455,11 @@ button {
     text-align: center;
     margin-top: -4%;
     margin-left: 10%;
+    text-shadow:
+        -1px -1px 0px #000,
+        -1px 1px 0px #000,
+        1px -1px 0px #000,
+        1px 0px 0px #000;
 }
 
 .estab_pic {
@@ -465,10 +472,10 @@ button {
     /* flex-direction: column; */
 }
 
-.estab_pic:hover {
+/* .estab_pic:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
     filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
-}
+} */
 
 .pai {
     position: relative;
