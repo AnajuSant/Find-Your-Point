@@ -188,6 +188,12 @@ label {
     margin-right: 34.5%;
 }
 
+.tela-inicial {
+    position: absolute;
+    margin-top: 42%;
+    margin-right: 34.5%;
+}
+
 .fa-eye {
     position: absolute;
     top: 150%;
