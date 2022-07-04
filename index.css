@@ -56,9 +56,8 @@ body {
     top: 80%;
 }
 
-
 a {
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -67,8 +66,6 @@ a {
     flex-direction: row;
     justify-content: space-between;
 }
-
-
 
 .pesquisar-m {
     display: flex;
@@ -89,8 +86,6 @@ a {
     background: white;
 }
 
-
-
 .pesquisar-btn {
     float: right;
     width: 40px;
@@ -100,8 +95,6 @@ a {
     justify-content: center;
     align-items: center;
     transition: 2s;
-
-
 }
 
 .pesquisar-texto {
@@ -122,16 +115,14 @@ input {
 }
 
 .Pag1-logo {
-
     height: 100px;
     transition: all 0.5s;
     cursor: pointer;
-
 }
 
 .Pag1-logo:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
 .iconPesquisar {
@@ -176,8 +167,6 @@ button {
     width: 100%;
 }
 
-
-
 .b-login {
     border-radius: 25px;
     border: 1px solid black;
@@ -185,8 +174,7 @@ button {
     width: 100px;
     height: 35px;
     transition: all 0.3s ease;
-    font-family: 'Poppins';
-
+    font-family: "Poppins";
 }
 
 .b-login:hover {
@@ -194,7 +182,6 @@ button {
     color: white;
     border: 1px solid rgba(9, 131, 9, 0.52);
     transition: all 0.5s ease;
-
 }
 
 .b-cadastro {
@@ -203,7 +190,7 @@ button {
     border-radius: 25px;
     height: 35px;
     transition: all 0.3s ease;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 .b-cadastro:hover {
@@ -211,9 +198,7 @@ button {
     color: white;
     border: 1px solid rgba(160, 203, 158);
     transition: all 0.5s ease;
-
 }
-
 
 .Pag1-header {
     display: flex;
@@ -235,10 +220,7 @@ button {
 
 .aovivo {
     height: 35px;
-
 }
-
-
 
 .Pai-cards {
     display: flex;
@@ -254,7 +236,6 @@ button {
     flex-direction: column;
     margin-top: -85px;
     align-items: center;
-
     /* gap: 15px; */
 }
 
@@ -263,7 +244,6 @@ button {
     flex-direction: column;
     margin-top: px;
     align-items: center;
-
     /* gap: 15px; */
 }
 
@@ -276,6 +256,8 @@ button {
     height: 430px;
     display: flex;
     flex-direction: row;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
 .cards:hover .detalhes {
@@ -287,7 +269,6 @@ button {
     margin-top: 0px;
 }
 
-
 .cards {
     display: flex;
     flex-direction: row;
@@ -295,7 +276,6 @@ button {
     /* align-items: flex-start; */
     width: 315px;
     /* height: 338px; */
-
     height: 250px;
     /* height: 500px; */
     overflow: hidden;
@@ -358,7 +338,6 @@ button {
     font-family: "Poppins";
     font-weight: 400;
     font-size: 15px;
-
 }
 
 .cards .conteudo .textocards h2 span {
@@ -370,7 +349,6 @@ button {
     display: flex;
     justify-content: center;
     /* margin-top: 100px; */
-
 }
 
 .explorebtn {
@@ -412,10 +390,10 @@ button {
 
 /*TELA 02*/
 
+
 /*TELA 02*/
 
 .Pag2-Explorar {
-
     background: rgba(217, 217, 217, 0.29);
     border: 2px solid #000000;
     backdrop-filter: blur(4px);
@@ -445,7 +423,6 @@ button {
     margin-top: 5%;
     margin-left: 13%;
     position: absolute;
-
 }
 
 .img-explorar img {
@@ -467,11 +444,10 @@ button {
 .heart img {
     height: 50px;
     width: 50px;
-
 }
 
 .span {
-    color: #f5f5f5;
+    color: #598659;
     font-size: 22px;
     position: absolute;
     text-align: center;
@@ -479,12 +455,8 @@ button {
     margin-left: 10%;
 }
 
-
 .estab_pic {
     margin-top: 5%;
-
-
-
 }
 
 .explorar {
@@ -493,13 +465,10 @@ button {
     /* flex-direction: column; */
 }
 
-
-
 .estab_pic:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
-
 
 .pai {
     position: relative;
@@ -561,7 +530,6 @@ button {
     left: 880px;
     border: 1px solid #ffffff;
 }
-
 
 .footerpag {
     width: 100%;
