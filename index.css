@@ -322,10 +322,10 @@ button {
     margin-top: -4%;
     margin-left: 10%;
     text-shadow: 
-               -1px -1px 0px #000, 
-               -1px 1px 0px #000,                    
-                1px -1px 0px #000,                  
-                1px 0px 0px #000;
+    -1px -1px 0px #000, 
+    -1px 1px 0px #000,                    
+    1px -1px 0px #000,                  
+    1px 0px 0px #000;
 }
 /* .heart:hover{
     -webkit-transform: rotateZ(360deg);
@@ -347,3 +347,72 @@ button {
     gap: 100px;
     /* flex-direction: column; */
 } 
+
+@media only screen and (min-width: 790px) and (max-width: 1023px) {
+    .b-login{
+        width: 40%;
+    }
+    .b-cadastro{
+        width: 55%;
+    }
+    .Pag2-Explorar{
+        margin-top: 220%;
+    }
+}
+@media only screen and (max-width: 790px) {
+    .b-login{
+        width: 40%;
+    }
+    .b-cadastro{
+        width: 55%;
+    }
+    .Pag1-opcoes{
+        gap: 30px; 
+    }
+    .Pai-cards{
+        justify-content: center;
+        flex-direction: column;
+       
+    }
+    .cards{
+        width: 400px;
+        height:400px;
+        overflow: visible;
+        align-content: space-around;
+        margin-top: 10%;
+    }
+    .cards:hover{
+        width: 400px;
+        height:400px;
+    }
+    .Pag2-Explorar{
+        align-items: center;
+        justify-content: center;
+        margin-top: 250%;
+    }
+    .titulo-explorar{
+        margin-left: 35%;
+    }
+    .img-explorar{
+        margin-left: 3%;
+        margin-top: 15%;
+    }
+    .img-explorar img{
+        height: 240px;
+        width: 520px;
+    }
+    /* .heart{
+        margin-top: -8%;
+        margin-left: -90%;
+        z-index: 7;
+    } */
+    .heart img{
+        height: 30px;
+        width: 30px;
+        
+    }
+    .span{
+        font-size: 18px;
+        margin-top: -5%;
+    }
+}
