@@ -55,7 +55,7 @@ function cadastrar() {
     } else {
         msgError.setAttribute('style', 'display: block')
         tituloForm.setAttribute('style', 'display: none')
-        msgError.innerHTML = 'Erro ao realizaar o cadastro Tente novamente!'
+        msgError.innerHTML = 'Erro ao realizar o cadastro Tente novamente!'
         msgSuccess.setAttribute('style', 'display: none')
     }
 }
