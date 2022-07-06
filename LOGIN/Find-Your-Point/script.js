@@ -41,7 +41,7 @@ function entrar() {
 
     if (email.value == emailValid.email && senha.value == emailValid.senha) {
 
-        window.location.href = 'https://anajusant.github.io/Find-Your-Point/index.html'
+        window.location.href = 'https://anajusant.github.io/Find-Your-Point/'
 
     } else {
         emailLabel.setAttribute('style', 'color: red')
