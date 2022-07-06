@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="">
     <link rel="shortcut icon" href="../../img/findicon.ico" type="image/x-icon" />
     <title>Find Your Point | Login </title>
@@ -17,18 +18,24 @@
 <body>
     <img class="planta1" src="../../img/onca.png">
     <div class="balao1">
-        <h1>Login</h1>
+        <h1 id="tituloForm" class="titulo-formulario">Login</h1>
+        <div id="msgError"></div>
+
         <div class="formulario">
-            <label>Email</label>
-            <input placeholder="email aqui..." type="text" class="email">
+            <label id="emailLabel">Email</label>
+            <input id="email" placeholder="email aqui..." type="text" class="email">
         </div>
+
         <div class="formulario">
-            <label>Senha</label>
-            <input placeholder="senha aqui..." type="password" class="password">
+            <label id="senhaLabel">Senha</label>
+            <input placeholder="senha aqui..." type="password" class="password" id="senha">
+            <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
         </div>
-        <button type="submit" class="btn">
+
+        <button type="submit" class="btn" onclick='entrar()'>
             <h4>Entrar</h4>
         </button>
+
         <div class="infosLogin">
             <h6>
                 <a href="../../CADASTRO/Find-Your-Point/index.html">Não possui login?<span>Cadastre-se</span></a>
@@ -43,7 +50,7 @@
     </form>
     <img class="onça1" src="../../img/plant.png">
 </body>
-
+<script src="/LOGIN/Find-Your-Point/script.js"></script>
 
 
 </html>

@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Raleway:wght@400;500&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -20,6 +21,10 @@ body {
 }
 
 .balao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 595px;
     height: 422px;
     background: rgba(209, 209, 209, 0.15);
@@ -29,12 +34,16 @@ body {
 }
 
 h1 {
-    padding: 20px;
+    font-family: "Raleway";
+    font-style: normal;
+}
+
+.titulo-formulario {
+    position: absolute;
+    top: 25%;
     font-size: 40px;
     line-height: 48px;
     text-align: center;
-    font-family: "Raleway";
-    font-style: normal;
     font-weight: 500;
     line-height: 35px;
     color: rgb(0, 0, 0);
@@ -46,7 +55,6 @@ h1 {
 }
 
 label {
-    margin-left: 108px;
     color: rgb(0, 0, 0);
     font-family: "Poppins";
     font-style: normal;
@@ -58,7 +66,6 @@ label {
 
 input {
     box-sizing: border-box;
-    margin-left: 102px;
     width: 392px;
     height: 46px;
     display: flex;
@@ -72,14 +79,10 @@ button {
     position: absolute;
     width: 173px;
     height: 51px;
-    top: 31px;
-    left: 225px;
+    margin-top: 16%;
+    margin-left: 30%;
     background: rgba(0, 0, 0, 0.75);
     border: 1px solid #000000;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    display: flex;
 }
 
 .btn {
@@ -115,7 +118,7 @@ h6 {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    top: 60px;
+    top: 90px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -151,13 +154,40 @@ span {
     bottom: 0;
 }
 
+.fa-eye {
+    position: absolute;
+    cursor: pointer;
+    color: #000000;
+    z-index: 1;
+    margin-left: 24.5%;
+    margin-top: -2%;
+}
+
+#msgError {
+    position: absolute;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    bottom: 61%;
+    color: #ff0000;
+    border-radius: 5px;
+    display: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+}
+
 @media only screen and (min-width: 350px) and (max-width: 896px) {
     .planta1 {
         z-index: 0;
     }
+
     .onça1 {
         z-index: 1;
     }
+
     .balao1 {
         position: absolute;
         z-index: 5;
@@ -165,23 +195,29 @@ span {
         height: 395px;
         backdrop-filter: blur(2px);
     }
+
     .formulario {
         margin-bottom: 0%;
         margin-left: -21%;
     }
+
     input {
         width: 239px;
         height: 35px;
     }
+
     label {
         margin-left: 29%;
     }
+
     .btn {
         left: 23%;
     }
+
     h6 {
         font-weight: bold;
     }
+
     span {
         color: #21663f;
         font-weight: bolder;
