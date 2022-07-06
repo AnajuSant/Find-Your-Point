@@ -198,20 +198,26 @@ span {
 
     .formulario {
         margin-bottom: 0%;
-        margin-left: -21%;
+        margin-left: 0%;
     }
-
+    .titulo-formulario{
+        top: 10%;
+    }
     input {
         width: 239px;
         height: 35px;
     }
 
     label {
-        margin-left: 29%;
+        margin-left: 5%;
     }
-
+    .fa-eye{
+        margin-left: 65.5%;
+        margin-top: -8%;
+    }
     .btn {
-        left: 23%;
+        margin-top: 59%;
+        left: -7%;
     }
 
     h6 {
