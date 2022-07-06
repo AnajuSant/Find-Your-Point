@@ -7,33 +7,31 @@
 body {
     height: 100%;
     width: 100%;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 a {
-    color: #FFFFFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
 h1 {
     margin-top: 3%;
-    font-family: 'Quicksand';
+    font-family: "Quicksand";
     font-style: normal;
     font-weight: 500;
     font-size: 35px;
     line-height: 44px;
-
     color: #000000;
 }
 
 h2 {
     margin-top: 43.24px;
-    font-family: 'Istok Web';
+    font-family: "Istok Web";
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 43px;
-
     color: #000000;
 }
 
@@ -72,8 +70,8 @@ hr {
 }
 
 .Pag1-logo:hover {
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
-    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, .5));
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
+    filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
 }
 
 .pesquisar-m {
@@ -164,7 +162,7 @@ hr {
     width: 100px;
     height: 35px;
     transition: all 0.3s ease;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 .b-login:hover {
@@ -180,7 +178,7 @@ hr {
     border-radius: 25px;
     height: 35px;
     transition: all 0.3s ease;
-    font-family: 'Poppins';
+    font-family: "Poppins";
 }
 
 .b-cadastro:hover {
@@ -292,4 +290,76 @@ hr {
     margin-top: 5%;
     margin-left: -4.6%;
     z-index: -1;
+}
+
+@media only screen and (min-width: 380px) and (max-width: 896px) {
+    /* .Pag1-TelaInicial{
+        width: 414px;
+    } */
+    /* body{
+        width: 50%;
+    } */
+    .Pag1-imglogo {
+        margin-left: -8%;
+    }
+    .Pag1-Titulo {
+        font-size: 17px;
+        margin-left: -10%;
+    }
+    .pesquisar-m {
+        margin-left: -13%;
+    }
+    .pesquisar-btn {
+        width: 35px;
+    }
+    .Pag1-Botoes {
+        gap: 2px;
+    }
+    .b-login {
+        width: 150%;
+        font-size: 12px;
+        margin-left: -55%;
+    }
+    .b-cadastro {
+        width: 108%;
+        font-size: 12px;
+        /* margin-left: 20%; */
+    }
+    .Pag1-header {
+        font-size: 13px;
+    }
+    .Pag1-opcoes {
+        gap: 30px;
+    }
+    .principal h2 {
+        font-size: 25px;
+    }
+    .slide-show1 {
+        height: 870px;
+        width: 345px;
+        position: absolute;
+    }
+    .novidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 7%;
+    }
+    .slide-show2 {
+        height: 870px;
+        width: 345px;
+        position: absolute;
+        margin-top: 5%;
+    }
+    .segundo-hr {
+        margin-top: 921.76px;
+    }
+    .populares {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 7%;
+    }
 }
