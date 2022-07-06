@@ -455,11 +455,7 @@ button {
     text-align: center;
     margin-top: -4%;
     margin-left: 10%;
-    text-shadow:
-        -1px -1px 0px #000,
-        -1px 1px 0px #000,
-        1px -1px 0px #000,
-        1px 0px 0px #000;
+    text-shadow: -1px -1px 0px #000, -1px 1px 0px #000, 1px -1px 0px #000, 1px 0px 0px #000;
 }
 
 .estab_pic {
@@ -471,6 +467,7 @@ button {
     gap: 100px;
     /* flex-direction: column; */
 }
+
 
 /* .estab_pic:hover {
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0, 0, 0, 0.5));
@@ -629,106 +626,115 @@ input {
     gap: 15px;
 }
 
-
-@media only screen and (min-width: 790px) and (max-width: 1023px) {
-    .b-login {
-        width: 130%;
-        margin-left: -5%;
-    }
-
-    .b-cadastro {
-        width: 120%;
-        margin-left: 20%;
-    }
-
-    .cards {
-        height: 900px;
-    }
-
-    .Pag2-Explorar {
-        margin-top: 220%;
-    }
-
-    .img-explorar img {
-        height: 240px;
-        width: 520px;
-    }
-
-    .heart img {
-        height: 50px;
-        width: 50px;
-
-    }
-
-    /* .span{
-        font-size: 18px;
-        margin-top: -5%;
+@media only screen and (min-width: 414px) and (max-width: 896px) {
+    /* .Pag1-TelaInicial{
+        width: 414px;
     } */
-}
-
-@media only screen and (max-width: 790px) {
+    /* body{
+        width: 50%;
+    } */
+    .Pag1-imglogo {
+        margin-left: -8%;
+    }
+    .Pag1-Titulo {
+        font-size: 17px;
+        margin-left: -10%;
+    }
+    .pesquisar-m {
+        margin-left: -13%;
+    }
+    .pesquisar-btn {
+        width: 35px;
+    }
+    .Pag1-Botoes {
+        gap: 2px;
+    }
     .b-login {
-        width: 130%;
+        width: 122%;
+        font-size: 12px;
         margin-left: -35%;
     }
-
     .b-cadastro {
-        width: 120%;
+        width: 108%;
+        font-size: 12px;
         /* margin-left: 20%; */
     }
-
+    .Pag1-header {
+        font-size: 13px;
+    }
     .Pag1-opcoes {
         gap: 30px;
     }
-
     .Pai-cards {
         justify-content: center;
         flex-direction: column;
-
     }
-
     .cards {
-        width: 400px;
-        height: 400px;
+        width: 287px;
+        height: 376px;
         overflow: visible;
         align-content: space-around;
         margin-top: 10%;
         margin-left: 15%;
     }
-
     .cards:hover {
         width: 400px;
         height: 400px;
     }
-
     .Pag2-Explorar {
         align-items: center;
         justify-content: center;
         margin-top: 250%;
+        height: 70vh;
     }
-
     .titulo-explorar {
-        margin-left: 35%;
+        margin-left: 30%;
+        margin-top: 10%;
     }
-
     .img-explorar {
-        margin-left: 10%;
-        margin-top: 15%;
+        margin-left: 0%;
+        margin-top: 30%;
     }
-
     .img-explorar img {
         height: 240px;
-        width: 520px;
+        width: 414px;
     }
-
+    .heart {
+        margin-top: -13%;
+    }
     .heart img {
         height: 30px;
         width: 30px;
-
     }
-
     .span {
         font-size: 18px;
+        margin-top: -6%;
+    }
+    /* .footer-col .imagem1{
+        margin-left: 5%;
+    } */
+    .footer-col h4 {
+        font-size: 11px;
+        margin-left: 5%;
+    }
+    .footer-col img {
+        height: 14px;
         margin-top: -5%;
+        margin-left: -9%;
+    }
+    .footer-col ul li a {
+        font-size: 12px;
+        width: 50px;
+    }
+    .pic1 {
+        padding: 5px;
+    }
+    .msg {
+        font-size: 12px;
+        margin-top: -32%;
+    }
+    .button-enviar {
+        margin-left: -100%;
+        margin-top: 130%;
     }
 }

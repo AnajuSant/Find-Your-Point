@@ -150,3 +150,40 @@ span {
     right: 0;
     bottom: 0;
 }
+
+@media only screen and (min-width: 350px) and (max-width: 896px) {
+    .planta1 {
+        z-index: 0;
+    }
+    .onça1 {
+        z-index: 1;
+    }
+    .balao1 {
+        position: absolute;
+        z-index: 5;
+        width: 320px;
+        height: 395px;
+        backdrop-filter: blur(2px);
+    }
+    .formulario {
+        margin-bottom: 0%;
+        margin-left: -21%;
+    }
+    input {
+        width: 239px;
+        height: 35px;
+    }
+    label {
+        margin-left: 29%;
+    }
+    .btn {
+        left: 23%;
+    }
+    h6 {
+        font-weight: bold;
+    }
+    span {
+        color: #21663f;
+        font-weight: bolder;
+    }
+}
