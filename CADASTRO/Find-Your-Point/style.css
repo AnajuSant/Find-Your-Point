@@ -197,7 +197,7 @@ label {
 #msgError {
     position: absolute;
     text-align: center;
-    width: 500px;
+    width: 475px;
     height: 100px;
     bottom: 75%;
     color: #ff0000;
@@ -231,43 +231,55 @@ label {
         width: 295px;
         height: 471px;
     }
+
     .titulo-formulario {
         top: 3.43%;
     }
+
     label {
         font-size: 15px;
     }
+
     .esquerda {
         top: -6%;
         right: 0.5%;
     }
+
     .esquerda input {
         width: 243px;
         height: 35px;
     }
+
     .username {
         top: 24%;
     }
+
     .password {
         bottom: 81%;
     }
+
     .password-confirmation {
         bottom: 186%;
     }
+
     .direita input {
         width: 243px;
         height: 35px;
     }
+
     .direita {
         top: 22%;
         left: -0.5%;
     }
+
     .email {
         top: 2%;
     }
+
     .cpf {
         bottom: 102%;
     }
+
     .button {
         width: 141px;
         height: 41px;
@@ -275,14 +287,17 @@ label {
         margin-left: 34%;
         font-size: 17px;
     }
+
     .login {
         margin-top: 112.37%;
         margin-right: 46.5%;
         width: 37%;
     }
+
     h6 {
         font-size: 10px;
     }
+
     .tela-inicial {
         position: absolute;
         margin-top: 139%;
